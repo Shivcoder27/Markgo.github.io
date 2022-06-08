@@ -1,0 +1,16 @@
+.flex_all_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 2px 13px ;
+    border-radius: 14px;
+    color: white;
+    cursor:pointer;
+    background : var(--main-bg-color)
+   
+}
+.btn:hover{
+    font-weight: bolder;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Zen+Loop&display=swap');
+:root {
+    --main-bg-color: #2c0e62;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:  var(--main-bg-color)
+
+  
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+   padding: 25px;
+    height: 32px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    align-items: center;
+
+}
+nav ul li{
+    margin: 10px;
+    padding: 20px;
+    list-style: none;
+    
+
+}
+nav ul li a{color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif ;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 400px;
+    height: 25px;
+    margin: 0 13px 0 43px;
+    padding: 0 15px;
+}
+.container{
+  min-height: 78vh
+    
+}
+.slider{
+    display: flex;
+    justify-content: center;
+
+}
+.slider img{
+    width: 600px;
+    margin-left: 15px;
+}
+.card{
+    margin: auto;
+    max-width: 91vw;
+    font-family: 'Zen Loop', cursive;
+  }
+  h1{
+      margin: 20px 20px;
+  }
+  .cards{
+      display: flex;
+  }
+.card-item{
+    margin: 35px ;
+    justify-content: center;
+    flex-direction: row;
+}
+.lines{
+ padding-left: 25px;
+}
+h1{
+    background-color: chartreuse;
+    width: 28vh;
+}
+
+
+
+footer{
+    height: 12vh;
+    background :  var(--main-bg-color);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   
+    align-items: center;
+}
